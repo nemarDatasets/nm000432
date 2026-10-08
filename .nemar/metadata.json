@@ -1,0 +1,143 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Baltazar A. Zavala": {},
+    "Anthony I. Jang": {},
+    "Kareem A. Zaghloul": {
+      "orcid": "0000-0001-8575-3578"
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.4960485",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.7554/eLife.31007",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000432",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000432",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "NINDS Intramural Research Program"
+    },
+    {
+      "funder_name": "NIGMS NIH HHS",
+      "award_number": "T32 GM007309"
+    }
+  ],
+  "title": "Human subthalamic nucleus LFP and prefrontal subdural recordings during a working-memory encoding decision task (Zavala, Jang & Zaghloul, 2018) - derivative",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "8.04 GB (1181 files)"
+  ],
+  "formats": [
+    ".001",
+    ".001-002",
+    ".001-003",
+    ".002",
+    ".002-003",
+    ".003",
+    ".004",
+    ".004-005",
+    ".004-006",
+    ".005",
+    ".005-006",
+    ".006",
+    ".501",
+    ".501-502",
+    ".502",
+    ".502-503",
+    ".503",
+    ".503-504",
+    ".504",
+    ".504-505",
+    ".505",
+    ".505-506",
+    ".505-506bad",
+    ".506",
+    ".506bad",
+    ".507",
+    ".507-508",
+    ".508",
+    ".508-509",
+    ".509",
+    ".509-510",
+    ".510",
+    ".510-511",
+    ".511",
+    ".511-512",
+    ".512",
+    ".512-513",
+    ".513",
+    ".513-514",
+    ".514",
+    ".eeg",
+    ".json",
+    ".mat",
+    ".py",
+    ".rtf",
+    ".tsv",
+    ".txt",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "Intraoperative macroelectrode local field potential recordings from the subthalamic nucleus and subdural strip recordings over anterior and lateral prefrontal cortex in 18 patients with Parkinson's disease undergoing deep brain stimulation surgery. Participants performed a sequential working-memory encoding task, viewing eight digits and remembering only those inside a target shape. This derivative release contains band-pass filtered, notch filtered, downsampled and re-referenced signals converted to BrainVision format with BIDS events.",
+  "methods_description": "Recordings were acquired intraoperatively at the NIH from STN macroelectrode trajectories and 6- and 8-contact subdural prefrontal strips (raw macro rate about 1.5 kHz). Signals were band-passed 1-500 Hz, notch filtered at 60 Hz, downsampled to 1 kHz, and re-referenced (macro common average, subdural bipolar). Medication was stopped 12 h before surgery. Int16 channel files were converted to BrainVision float32 and behavioural events were exported to events.tsv.",
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "local field potentials"
+    },
+    {
+      "term": "Subthalamic Nucleus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020531"
+    },
+    {
+      "term": "Prefrontal Cortex",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D017397"
+    },
+    {
+      "term": "working memory"
+    },
+    {
+      "term": "Decision Making",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003657"
+    },
+    {
+      "term": "Parkinson Disease",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
+    },
+    {
+      "term": "Deep Brain Stimulation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D046690"
+    }
+  ],
+  "source_hash": "60a3685bde27300380db37aa6d64c47f19d31d1d8187a5aa08cc4e4730e0c14d"
+}
