@@ -1,0 +1,87 @@
+DBS029
+Notes: B/L STN. Implanted right STN first so traj 1:3 are for right STN. --------------------------------------------------------
+
+Target
+
+AC
+x: 98.4
+y: 114.5
+z: 101.8
+
+PC
+x: 97.2
+y: 89.5
+z: 101.7
+
+L STN
+x: 111
+y: 98.5
+z: 107
+Decl: 57.3 
+Azm: 111.8
+
+R STN
+x: 84.5
+y: 98.5
+z: 107
+decl: 55.7
+Azm: 71.9
+
+------------------------------------------------------
+Track   Location      Impedance
+1       R Center      
+2       R Lateral
+3       R Anterior
+4       L Center      
+5       L Lateral
+6       L Anterior   
+101	R PF1 (Right prefrontal)
+102	R PF2 (Right prefrontal)
+103	R PF3 (Right prefrontal)
+104	R PF4 (Right prefrontal)
+105	R PF5 (Right prefrontal)
+106	R PF6 (Right prefrontal)
+107	L PF1 (Left prefrontal)
+108	L PF2 (Left prefrontal)
+109	L PF3 (Left prefrontal)
+110	L PF4 (Left prefrontal)
+111	L PF5 (Left prefrontal)
+112	L PF6 (Left prefrontal)
+
+
+-----------------------------------------------------------
+STN 
+Track		Top      	Bottom
+3		0		-0.5
+4		4.0		0
+---------------------------------------------------------
+
+11/01/2014
+Task: SequenceMem
+Session: 0
+Start: 11:12
+End: 11:20
+Tester: BZ
+Notes: Intra-op R sided STN (left hand). Subject did great. Ecog chan 6 was bad.
+
+Behavioral data: /data/dbs/DBS029/behavioral/SequenceMem/session_0/
+DBS file:  /data/dbs/DBS029/raw/traj1/-01980001.mat
+BR file:  /data/dbs/DBS029/raw/br/DBS029.ns3 --> DBS022_141101_1_-01980001
+Track: 1
+Depth: -1.98
+---------------------------------------------------------
+
+11/01/2014
+Task: SequenceMem
+Session: 1
+Start: 12:16
+End: 12:25
+Tester: BZ
+Notes: Intra-op L sided STN (right hand). Subject did great.
+
+Behavioral data: /data/dbs/DBS029/behavioral/SequenceMem/session_1/
+DBS file:  /data/dbs/DBS029/raw/traj4/00909.mat
+BR file:  /data/dbs/DBS029/raw/br/DBS029b.ns3 --> DBS022_141101_4_00909
+Track: 4
+Depth: 0.909
+---------------------------------------------------------

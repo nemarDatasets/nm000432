@@ -1,0 +1,5 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "n/a",
+  "iEEGCoordinateSystemDescription": "No coordinates are released; contact numbers from the release file extensions. STN target coordinates and track depths (frame coordinates) are in sourcedata docs/recordingdetails.txt. x, y, z = n/a."
+}

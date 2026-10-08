@@ -1,0 +1,38 @@
+{
+  "onset": {
+    "Description": "eegoffset / 1000 (release events.mat; eegoffset = sample in the electrophysiology files)",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "0",
+    "Units": "s"
+  },
+  "trial_type": {
+    "Description": "number = presentation of one digit"
+  },
+  "value": {
+    "Description": "Digit presented (events.number)"
+  },
+  "sample": {
+    "Description": "eegoffset"
+  },
+  "block": {
+    "Description": "events.block"
+  },
+  "target": {
+    "Description": "events.target (target vs distractor; release field)"
+  },
+  "circle": {
+    "Description": "events.circle (release field)"
+  },
+  "correct": {
+    "Description": "events.correct"
+  },
+  "saidseq": {
+    "Description": "events.saidseq (reported sequence)"
+  },
+  "mstime_rel": {
+    "Description": "events.mstime relative to the first event of the session (absolute clock removed)",
+    "Units": "ms"
+  }
+}

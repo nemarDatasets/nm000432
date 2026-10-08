@@ -1,0 +1,95 @@
+DBS039
+
+Notes: B/L STN. Only did SequenceMem task and only on left STN (right hand).
+---------------------------------------------------------
+Target
+
+AC
+x: 101.5
+y: 115.3
+z: 98.5
+
+PC
+x: 99.7
+y: 90.0
+z: 94.8
+
+L STN
+x: 111
+y: 97
+z: 102
+Decl: 55 
+Azm: 109.4
+
+R STN
+x: 88
+y: 99
+z: 102
+decl: 54.2
+Azm: 75.8
+
+------------------------------------------------------
+Track   Location      Impedance
+1       L Center      
+2       L Lateral
+3       L Anterior
+4       L Anterior      
+5       L AnteriorMedial
+6       L AnteriorAnterior
+7 	L AnteriorLateral
+10	R Central
+11	R Lateral
+12	R Anterior
+13	R Medial
+14	R Posterior
+101	L PF1 (Left prefrontal)
+102	L PF2 (Left prefrontal)
+103	L PF3 (Left prefrontal)
+104	L PF4 (Left prefrontal)
+105	L PF5 (Left prefrontal)
+106	L PF6 (Left prefrontal)
+107	L LF1 (Left lateral frontal)
+108	L LF2 (Left lateral frontal)
+109	L LF3 (Left lateral frontal)
+110	L LF4 (Left lateral frontal)
+111	L LF5 (Left lateral frontal)
+112	L LF6 (Left lateral frontal)
+113	L LF7 (Left lateral frontal)
+114	L LF8 (Left lateral frontal)
+115	R PF1 (Right prefrontal)
+116	R PF2 (Right prefrontal)
+117	R PF3 (Right prefrontal)
+118	R PF4 (Right prefrontal)
+119	R PF5 (Right prefrontal)
+120	R PF6 (Right prefrontal)
+121	R LF1 (Right lateral frontal)
+122	R LF2 (Right lateral frontal)
+123	R LF3 (Right lateral frontal)
+124	R LF4 (Right lateral frontal)
+125	R LF5 (Right lateral frontal)
+126	R LF6 (Right lateral frontal)
+127	R LF7 (Right lateral frontal)
+128	R LF8 (Right lateral frontal)
+-----------------------------------------------------------
+STN 
+Track		Top      	Bottom
+1		1.5		1.0
+3		1.5		-0.5
+4		1.5		0.5
+5		2.5		-2.0
+13		2.5		1.5
+---------------------------------------------------------
+09/01/2015
+Task: SequenceMem
+Session: 0
+Start: 11:05
+End: 11:22
+Tester: AJ&BZ
+Notes: Intra-op L sided STN (Right hand). Patient did ok on SequenceMem. No spiking. Ecog looked good. Did not do second side.
+
+Behavioral data: /data/dbs/DBS039/behavioral/SequenceMem/session_0/
+DBS file:  /data/dbs/DBS039/raw/traj4/-01000001.mat
+BR file:  /data/dbs/DBS039/raw/br/DBS039_leftSTN.ns3 --> DBS039_150901_4_-01000001
+Track: 4
+Depth: -1.00
+---------------------------------------------------------

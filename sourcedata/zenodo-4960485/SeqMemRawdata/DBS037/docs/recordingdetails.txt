@@ -1,0 +1,104 @@
+DBS037
+
+Notes: B/L STN. Did right STN first. ---------------------------------------------------------
+Target
+
+AC
+x: 96.9
+y: 124.9
+z: 105.7
+
+PC
+x: 97.7
+y: 98.6
+z: 100.9
+
+L STN
+x: 109
+y: 107
+z: 108.5
+Decl: 54.1 
+Azm: 105.7
+
+R STN
+x: 85.5
+y: 107
+z: 108.5
+decl: 51
+Azm: 71.2
+
+------------------------------------------------------
+Track   Location      Impedance
+1	R Central
+2	R Lateral
+3	R Posterior
+4       L Center      
+5       L Lateral
+6       L Anterior
+101	R PF1 (Right prefrontal)
+102	R PF2 (Right prefrontal)
+103	R PF3 (Right prefrontal)
+104	R PF4 (Right prefrontal)
+105	R PF5 (Right prefrontal)
+106	R PF6 (Right prefrontal)
+107	R LF1 (Right lateral frontal)
+108	R LF2 (Right lateral frontal)
+109	R LF3 (Right lateral frontal)
+110	R LF4 (Right lateral frontal)
+111	R LF5 (Right lateral frontal)
+112	R LF6 (Right lateral frontal)
+113	R LF7 (Right lateral frontal)
+114	R LF8 (Right lateral frontal)
+115	L PF1 (Left prefrontal)
+116	L PF2 (Left prefrontal)
+117	L PF3 (Left prefrontal)
+118	L PF4 (Left prefrontal)
+119	L PF5 (Left prefrontal)
+120	L PF6 (Left prefrontal)
+121	L LF1 (Left lateral frontal)
+122	L LF2 (Left lateral frontal)
+123	L LF3 (Left lateral frontal)
+124	L LF4 (Left lateral frontal)
+125	L LF5 (Left lateral frontal)
+126	L LF6 (Left lateral frontal)
+127	L LF7 (Left lateral frontal)
+128	L LF8 (Left lateral frontal)
+-----------------------------------------------------------
+STN 
+Track		Top      	Bottom
+1		4.5		-1.0
+2		4.0		3.5
+4		3.8		-2.0
+5		4.0		-1.0
+6		4.2		-1.5
+---------------------------------------------------------
+
+07/01/2015
+Task: SequenceMem
+Session: 1
+Start: 10:47
+End: 10:56
+Tester: BZ
+Notes: Intra-op R sided STN (Left hand). Did right STN/lefthand first. Subject did great. 
+
+Behavioral data: /data/dbs/DBS037/behavioral/SequenceMem/session_1/
+DBS file:  /data/dbs/DBS037/raw/traj1/00022002.map.mat
+BR file:  /data/dbs/DBS037/raw/br/DBS037RightSideB.ns3 --> DBS037_150701_1_00022002
+Track: 1
+Depth: 0.022002
+---------------------------------------------------------
+
+07/01/2015
+Task: SequenceMem
+Session: 3
+Start: 12:25
+End: 12:33
+Tester: BZ
+Notes: Intra-op L sided STN (Right hand). Did left STN/righthand second. Second SequenceMem session. 
+
+Behavioral data: /data/dbs/DBS037/behavioral/SequenceMem/session_3/
+DBS file:  /data/dbs/DBS037/raw/traj4/-00957001.map.mat
+BR file:  /data/dbs/DBS037/raw/br/DBS037LeftSideB.ns3 --> DBS037_150701_4_-00957001
+Track: 4
+Depth: -0.957
+---------------------------------------------------------

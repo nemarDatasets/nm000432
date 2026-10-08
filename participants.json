@@ -1,0 +1,15 @@
+{
+  "source_id": {
+    "Description": "Subject folder in the release"
+  },
+  "age": {
+    "Description": "Not given per subject (article: 58.4 +/- 1.64 years, mean +/- SEM, N = 18)",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "Not given per subject (article: 16 of 18 male)"
+  },
+  "diagnosis": {
+    "Description": "Article"
+  }
+}

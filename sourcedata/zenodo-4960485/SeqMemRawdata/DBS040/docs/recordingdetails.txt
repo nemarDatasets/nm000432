@@ -1,0 +1,112 @@
+DBS040
+
+Notes: B/L STN
+---------------------------------------------------------
+Target
+
+AC
+x: 99.4
+y: 109.6
+z: 100.9
+
+PC
+x: 98.1
+y: 80.6
+z: 100.8
+
+L STN
+x: 110
+y: 92
+z: 105.5
+Decl: 57 
+Azm: 110
+
+R STN
+x: 87
+y: 92
+z: 105.5
+decl: 58
+Azm: 82
+
+------------------------------------------------------
+Track   Location      Impedance
+1       R Center      
+2       R Lateral
+3       R Anterior
+4       R Center      
+5       R Posterior
+7 	R Posterior
+8	R PosteriorMedial
+9	R PosteriorPosterior
+10	L Central
+11	L Lateral
+12	L Anterior
+101	R PF1 (Right prefrontal)
+102	R PF2 (Right prefrontal)
+103	R PF3 (Right prefrontal)
+104	R PF4 (Right prefrontal)
+105	R PF5 (Right prefrontal)
+106	R PF6 (Right prefrontal)
+107	R LF1 (Right lateral frontal)
+108	R LF2 (Right lateral frontal)
+109	R LF3 (Right lateral frontal)
+110	R LF4 (Right lateral frontal)
+111	R LF5 (Right lateral frontal)
+112	R LF6 (Right lateral frontal)
+113	R LF7 (Right lateral frontal)
+114	R LF8 (Right lateral frontal)
+115	L PF1 (Left prefrontal)
+116	L PF2 (Left prefrontal)
+117	L PF3 (Left prefrontal)
+118	L PF4 (Left prefrontal)
+119	L PF5 (Left prefrontal)
+120	L PF6 (Left prefrontal)
+121	L LF1 (Left lateral frontal)
+122	L LF2 (Left lateral frontal)
+123	L LF3 (Left lateral frontal)
+124	L LF4 (Left lateral frontal)
+125	L LF5 (Left lateral frontal)
+126	L LF6 (Left lateral frontal)
+127	L LF7 (Left lateral frontal)
+128	L LF8 (Left lateral frontal)
+-----------------------------------------------------------
+STN 
+Track		Top      	Bottom
+1		6.0		3.0
+2		3.5		2.5
+5		5.5		1.5
+7		5.5		5.0
+8		5.5		0.0
+9		1.0		0.0
+10		1.5		-3.0
+11		3.0		-2.5
+12		2.5		-3.5
+---------------------------------------------------------
+09/01/2015
+Task: SequenceMem
+Session: 0
+Start: 10:09
+End: 10:20
+Tester: BZ
+Notes: Intra-op R sided STN (Left hand). Did left hand (right STN) first. Patient did ok. Electrophys looked good. LFP Channel 6 not recorded. 
+
+Behavioral data: /data/dbs/DBS040/behavioral/SequenceMem/session_0/
+DBS file:  /data/dbs/DBS040/raw/traj4/02325002.mat
+BR file:  /data/dbs/DBS040/raw/nk/JA02502M.eeg --> DBS040_150901_4_02325002
+Track: 4
+Depth: 2.325
+---------------------------------------------------------
+09/01/2015
+Task: SequenceMem
+Session: 1
+Start: 11:48
+End: 11:58
+Tester: BZ
+Notes: Intra-op L sided STN (right hand). Did right hand (left STN) second. Patient did pretty well. Electrophys looked great! 
+
+Behavioral data: /data/dbs/DBS040/behavioral/SequenceMem/session_1/
+DBS file:  /data/dbs/DBS040/raw/traj10/-00018.mat
+BR file:  /data/dbs/DBS040/raw/nk/JA02502O.eeg --> DBS040_150901_10_-00018
+Track: 10
+Depth: -0.018
+

@@ -1,0 +1,85 @@
+DBS047
+
+Notes: B/L STN
+
+---------------------------------------------------------
+
+Target
+
+
+AC
+x: 99.2
+y: 124.5
+z: 107.7
+
+PC
+x: 97.9
+y: 99.4
+z: 99.9
+
+L STN
+x: 108.5
+y: 108.5
+z: 109
+Decl: 45
+Azm: 108.6
+
+
+R STN
+x: 88
+y: 108.5
+z: 109
+decl: 50
+Azm: 76.5
+
+
+
+------------------------------------------------------
+Track   Location      Impedance
+1      	L Center      
+2      	L Lateral
+3      	L Anterior
+4	R Central
+5	R Lateral
+6	R Anterior
+
+-----------------------------------------------------------
+
+STN 
+
+Track		Top      	Bottom
+1		2.5		-1.5
+2		4.5		-1.5
+3		4.5		-1.5
+4		5.5		-0.5
+5		5.5		1.5
+6		2.0		1.0
+---------------------------------------------------------
+
+04/01/2016
+Task: SequenceMem
+Session: 0
+Start: 10:30am
+End: 10:39am
+Tester: AJ
+Notes: Intra-op L sided STN (right hand). 
+
+Behavioral data: /data/dbs/DBS047/behavioral/SequenceMem/session_0
+DBS file: /data/dbs/DBS047/raw/LT1D-1.604
+Track: LT1
+Depth: -1.604
+---------------------------------------------------------
+
+04/01/2016
+Task: SequenceMem
+Session: 1
+Start: 11:22am
+End: 11:30am
+Tester: AJ
+Notes: Intra-op R sided STN (left hand). 
+
+Behavioral data: /data/dbs/DBS047/behavioral/SequenceMem/session_0
+DBS file: /data/dbs/DBS047/raw/RT1D1.984
+Track: RT1
+Depth: 1.984
+---------------------------------------------------------

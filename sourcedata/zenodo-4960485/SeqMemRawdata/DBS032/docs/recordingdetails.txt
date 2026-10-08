@@ -1,0 +1,91 @@
+DBS032
+Notes: B/L STN. 
+---------------------------------------------------------
+Target
+
+AC
+x: 99.3
+y: 121.7
+z: 102.9
+
+PC
+x: 98.6
+y: 108.8
+z: 99.5
+
+L STN
+x: 110
+y: 104.5
+z: 104.5
+Decl: 58 
+Azm: 104.1
+
+R STN
+x: 88
+y: 104.5
+z: 104.5
+decl: 58.5
+Azm: 69.9
+
+------------------------------------------------------
+Track   Location      Impedance
+1       L Center      
+2       L Lateral
+3       L Anterior
+4	R Central
+5	R Lateral
+6	R Anterior
+101	L PF1 (Left prefrontal)
+102	L PF2 (Left prefrontal)
+103	L PF3 (Left prefrontal)
+104	L PF4 (Left prefrontal)
+105	L PF5 (Left prefrontal)
+106	L PF6 (Left prefrontal)
+107	R PF1 (Right prefrontal)
+108	R PF2 (Right prefrontal)
+109	R PF3 (Right prefrontal)
+110	R PF4 (Right prefrontal)
+111	R PF5 (Right prefrontal)
+112	R PF6 (Right prefrontal)
+
+
+
+-----------------------------------------------------------
+STN 
+Track		Top      	Bottom
+1		4.5		-1.0
+2		3.5		0
+3		5.0		-0.5
+4		2.5		0
+6		1.0		-1.0
+---------------------------------------------------------
+
+02/01/2015
+Task: SequenceMem
+Session: 0
+Start: 9:50
+End: 10:03
+Tester: BZ
+Notes: Intra-op L sided STN (right hand). Electrophyz looked great. Subject missed a lot of trials. I ran four short blocks of the task and merged them into one long session. Hopefully will have enough correct trials. 
+
+Behavioral data: /data/dbs/DBS032/behavioral/SequenceMem/session_0/
+DBS file:  /data/dbs/DBS032/raw/traj1/01007001.mat
+BR file:  /data/dbs/DBS032/raw/br/DBS032leftstnrighthand.ns3 --> DBS032_150201_1_01007001
+Track: 1
+Depth: 1.007
+---------------------------------------------------------
+
+02/01/2015
+Task: SequenceMem
+Session: 1
+Start: 11:28
+End: 11:36
+Tester: BZ
+Notes: Intra-op R sided STN (left hand). Subject did ok. 
+
+Behavioral data: /data/dbs/DBS032/behavioral/SequenceMem/session_1/
+DBS file:  /data/dbs/DBS032/raw/traj4/00203.mat
+BR file:  /data/dbs/DBS032/raw/br/DBS032rightstnleftthand.nev --> DBS032_150201_4_00203
+Track: 4
+Depth: 0.203
+---------------------------------------------------------

@@ -1,0 +1,88 @@
+DBS044
+
+Notes: B/L STN
+---------------------------------------------------------
+Target
+
+AC
+x: 96.4
+y: 111.2
+z: 100.3
+
+PC
+x: 97.5
+y: 97.4
+z: 101.3
+
+L STN
+x: 110.5
+y: 95.5
+z: 107.5
+Decl: 66.5
+Azm: 100.2
+
+R STN
+x: 85.5
+y: 95.5
+z: 107.5
+decl: 77.9
+Azm: 64.4
+
+------------------------------------------------------
+Track   Location      Impedance
+1       L Center      
+2       L Lateral
+3       L Anterior
+4	R Central
+5	R Lateral
+6	R Anterior
+101	L PF1 (Left prefrontal)
+102	L PF2 (Left prefrontal)
+103	L PF3 (Left prefrontal)
+104	L PF4 (Left prefrontal)
+105	L PF5 (Left prefrontal)
+106	L PF6 (Left prefrontal)
+107	L LF1 (Left lateral frontal)
+108	L LF2 (Left lateral frontal)
+109	L LF3 (Left lateral frontal)
+110	L LF4 (Left lateral frontal)
+111	L LF5 (Left lateral frontal)
+112	L LF6 (Left lateral frontal)
+113	L LF7 (Left lateral frontal)
+114	L LF8 (Left lateral frontal)
+115	R PF1 (Right prefrontal)
+116	R PF2 (Right prefrontal)
+117	R PF3 (Right prefrontal)
+118	R PF4 (Right prefrontal)
+119	R PF5 (Right prefrontal)
+120	R PF6 (Right prefrontal)
+121	R LF1 (Right lateral frontal)
+122	R LF2 (Right lateral frontal)
+123	R LF3 (Right lateral frontal)
+124	R LF4 (Right lateral frontal)
+125	R LF5 (Right lateral frontal)
+126	R LF6 (Right lateral frontal)
+127	R LF7 (Right lateral frontal)
+128	R LF8 (Right lateral frontal)
+
+-----------------------------------------------------------
+STN 
+Track		Top      	Bottom
+1		5.0		1.0
+4		3.5		0.5
+5		3.5		1.5
+6		3.5		1.5
+---------------------------------------------------------
+02/01/2016
+Task: SequenceMem
+Session: 0
+Start: 10:16
+End: 10:37
+Tester: AJ
+Notes: Patient was not great. Missed a lot of trials. Ran two blocks of sequenceMem on the same hemi-sphere and then concatenated the two blocks. 
+
+Behavioral data: /data/dbs/DBS044/behavioral/SequenceMem/session_0
+DBS file: /data/dbs/DBS044/raw/LT1D0.800001
+Track: LT1
+Depth: 0.008
+---------------------------------------------------------

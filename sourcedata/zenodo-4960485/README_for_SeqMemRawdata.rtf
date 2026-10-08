@@ -1,0 +1,21 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Each directory is for a different subject. Some subjects performed two sessions, one while recordings were from the left STN/PFC and one while recordings were from the right STN/PFC. \
+\
+All functions were written and run using Matlab (R2017_b). Matlab is the only software needed to analyze the data. However, the raw electrophysiology files can be read as int16 files by any program. The behavioral data, on the other hand, is saved in the .mat format, which can only be opened in matlab. \
+\
+Each director has 4 subdirectories\
+1. behavioral: contains an events.mat file for each of the sessions, which describes each event in a session and what time point in the electrophysiology files correspond to the beginning of that event. \
+2. docs: contains the electrode depth location and a description of which sessions were performed in the OR as well as any notes about these sessions. \
+3. ecogLFPdata_rereferenced: contains the LFP and ecog data for all sessions for that subject. \
+4. spiking data: contains the plexus sorted spike times for each micro electrode recordings.  (For the unsorted raw spiking data, please contact kareem.zaghloul@nih.gov).\
+\
+To analyze the data:\
+1. Run the matlab function \'91rundata_power.m\'92. This will load each of the subject\'92s LFP or ecog data (you select which data you want to load), calculate the wavelet power, normalize the power, and save the normalized power separately for target and distractor trials). \
+2. Run the function \'91rundata_spiking.m\'92. This will load the spike times for each recording that was made within the borders of the STN and sort the spike times by trials. It will also smooth the firing rate and save a continuous time series of the firing rate for each event. \
+NOTE: the files that were actually used in the analysis (only those that were located within the borders of the STN) are saved in the file \'91filenames_SequenceMem.m\'92, which is called by rundata_power.m. \
+}

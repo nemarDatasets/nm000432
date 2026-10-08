@@ -1,0 +1,35 @@
+{
+  "TaskName": "seqmem",
+  "TaskDescription": "Sequential working-memory task: eight single-digit numbers presented in sequence; remember only numbers inside the target shape and ignore distractors; verbal report at the end of each block (article).",
+  "PowerLineFrequency": 60,
+  "SoftwareFilters": {
+    "Bandpass": {
+      "Description": "1-500 Hz (article)"
+    },
+    "Notch": {
+      "Description": "60 Hz (article)"
+    },
+    "Downsampling": {
+      "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+    },
+    "Rereferencing": {
+      "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+    }
+  },
+  "HardwareFilters": "n/a",
+  "iEEGReference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+  "iEEGPlacementScheme": "Intraoperative: three macro/microelectrode pairs in the STN trajectory and two subdural strips (6 and 8 contacts) over anterior and lateral PFC (article); per-subject notes in sourcedata docs/recordingdetails.txt",
+  "Manufacturer": "Alpha Omega",
+  "ManufacturersModelName": "MicroGuide Pro (article)",
+  "ElectricalStimulation": false,
+  "SamplingFrequency": 1000.0,
+  "RecordingDuration": 647.542,
+  "RecordingType": "continuous",
+  "ECOGChannelCount": 26,
+  "SEEGChannelCount": 0,
+  "DBSChannelCount": 12,
+  "EEGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0
+}

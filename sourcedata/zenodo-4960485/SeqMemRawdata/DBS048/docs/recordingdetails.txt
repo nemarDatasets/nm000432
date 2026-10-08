@@ -1,0 +1,116 @@
+DBS048
+
+Notes: B/L STN
+
+---------------------------------------------------------
+
+Target
+
+
+AC
+x: 98.7
+y: 123.8
+z: 109.3
+
+
+PC
+x: 97.2
+y: 111.2
+z: 108.4
+
+
+L STN
+
+x: 109
+y: 108.5
+z: 114
+Decl: 62
+Azm: 113
+
+
+R STN
+
+x: 86
+y: 108.5
+z: 114
+decl: 60
+Azm: 75.5
+
+------------------------------------------------------
+
+Track   Location      Impedance
+
+1       L Center      
+2       L Lateral
+3       L Anterior
+4	R Central
+5	R Lateral
+6	R Anterior
+101	L PF1 (Left prefrontal)
+102	L PF2 (Left prefrontal)
+103	L PF3 (Left prefrontal)
+104	L PF4 (Left prefrontal)
+105	L PF5 (Left prefrontal)
+106	L PF6 (Left prefrontal)
+107	L LF1 (Left lateral frontal)
+108	L LF2 (Left lateral frontal)
+109	L LF3 (Left lateral frontal)
+110	L LF4 (Left lateral frontal)
+111	L LF5 (Left lateral frontal)
+112	L LF6 (Left lateral frontal)
+113	L LF7 (Left lateral frontal)
+114	L LF8 (Left lateral frontal)
+115	R PF1 (Right prefrontal)
+116	R PF2 (Right prefrontal)
+117	R PF3 (Right prefrontal)
+118	R PF4 (Right prefrontal)
+119	R PF5 (Right prefrontal)
+120	R PF6 (Right prefrontal)
+121	R LF1 (Right lateral frontal)
+122	R LF2 (Right lateral frontal)
+123	R LF3 (Right lateral frontal)
+124	R LF4 (Right lateral frontal)
+125	R LF5 (Right lateral frontal)
+126	R LF6 (Right lateral frontal)
+127	R LF7 (Right lateral frontal)
+128	R LF8 (Right lateral frontal)
+
+-----------------------------------------------------------
+
+STN 
+
+Track		Top      	Bottom
+1		5.0		-1.5
+2		4.5		-1.5
+3		2.5		-1.5
+4		3.5		2.5
+5		4.0		0.5
+6		2.0		1.0
+---------------------------------------------------------
+04/01/2016
+Task: SequenceMem
+Session: 0
+Start: 09:58am
+End: 10:06am
+Tester: AJ
+Notes: Intra-op L sided STN (right hand). Good behavior
+
+Behavioral data: /data/dbs/DBS048/behavioral/SequenceMem/session_0
+DBS file: /data/dbs/DBS048/raw/LT1D0.522
+Track: LT1
+Depth: 0.522
+---------------------------------------------------------
+
+04/01/2016
+Task: SequenceMem
+Session: 1
+Start: 11:18am
+End: 11:27am
+Tester: AJ
+Notes: Intra-op R sided STN (left hand). Good behavior
+
+Behavioral data: /data/dbs/DBS048/behavioral/SequenceMem/session_1
+DBS file: /data/dbs/DBS048/raw/RT1D1.047
+Track: RT1
+Depth: 1.047
+---------------------------------------------------------

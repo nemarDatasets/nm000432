@@ -1,0 +1,26 @@
+name	type	units	low_cutoff	high_cutoff	sampling_frequency	reference	group	status	status_description	description
+LFP004-005	DBS	n/a	n/a	n/a	1000.0	bipolar	STN_macro	good	n/a	release file extension .004-005; macroelectrode LFP channel (0NN numbering); pair NNN-MMM = difference of the two channels
+ECOG502	ECOG	n/a	n/a	n/a	1000.0	n/a	PFC_strip	good	n/a	release file extension .502; subdural PFC strip channel (5NN numbering)
+ECOG502-503	ECOG	n/a	n/a	n/a	1000.0	bipolar	PFC_strip	good	n/a	release file extension .502-503; subdural PFC strip channel (5NN numbering); pair NNN-MMM = difference of the two channels
+ECOG503	ECOG	n/a	n/a	n/a	1000.0	n/a	PFC_strip	good	n/a	release file extension .503; subdural PFC strip channel (5NN numbering)
+ECOG503-504	ECOG	n/a	n/a	n/a	1000.0	bipolar	PFC_strip	good	n/a	release file extension .503-504; subdural PFC strip channel (5NN numbering); pair NNN-MMM = difference of the two channels
+ECOG504	ECOG	n/a	n/a	n/a	1000.0	n/a	PFC_strip	good	n/a	release file extension .504; subdural PFC strip channel (5NN numbering)
+ECOG504-505	ECOG	n/a	n/a	n/a	1000.0	bipolar	PFC_strip	good	n/a	release file extension .504-505; subdural PFC strip channel (5NN numbering); pair NNN-MMM = difference of the two channels
+ECOG505	ECOG	n/a	n/a	n/a	1000.0	n/a	PFC_strip	good	n/a	release file extension .505; subdural PFC strip channel (5NN numbering)
+ECOG505-506	ECOG	n/a	n/a	n/a	1000.0	bipolar	PFC_strip	good	n/a	release file extension .505-506; subdural PFC strip channel (5NN numbering); pair NNN-MMM = difference of the two channels
+ECOG506	ECOG	n/a	n/a	n/a	1000.0	n/a	PFC_strip	good	n/a	release file extension .506; subdural PFC strip channel (5NN numbering)
+ECOG507	ECOG	n/a	n/a	n/a	1000.0	n/a	PFC_strip	good	n/a	release file extension .507; subdural PFC strip channel (5NN numbering)
+ECOG507-508	ECOG	n/a	n/a	n/a	1000.0	bipolar	PFC_strip	good	n/a	release file extension .507-508; subdural PFC strip channel (5NN numbering); pair NNN-MMM = difference of the two channels
+ECOG508	ECOG	n/a	n/a	n/a	1000.0	n/a	PFC_strip	good	n/a	release file extension .508; subdural PFC strip channel (5NN numbering)
+ECOG508-509	ECOG	n/a	n/a	n/a	1000.0	bipolar	PFC_strip	good	n/a	release file extension .508-509; subdural PFC strip channel (5NN numbering); pair NNN-MMM = difference of the two channels
+ECOG509	ECOG	n/a	n/a	n/a	1000.0	n/a	PFC_strip	good	n/a	release file extension .509; subdural PFC strip channel (5NN numbering)
+ECOG509-510	ECOG	n/a	n/a	n/a	1000.0	bipolar	PFC_strip	good	n/a	release file extension .509-510; subdural PFC strip channel (5NN numbering); pair NNN-MMM = difference of the two channels
+ECOG510	ECOG	n/a	n/a	n/a	1000.0	n/a	PFC_strip	good	n/a	release file extension .510; subdural PFC strip channel (5NN numbering)
+ECOG510-511	ECOG	n/a	n/a	n/a	1000.0	bipolar	PFC_strip	good	n/a	release file extension .510-511; subdural PFC strip channel (5NN numbering); pair NNN-MMM = difference of the two channels
+ECOG511	ECOG	n/a	n/a	n/a	1000.0	n/a	PFC_strip	good	n/a	release file extension .511; subdural PFC strip channel (5NN numbering)
+ECOG511-512	ECOG	n/a	n/a	n/a	1000.0	bipolar	PFC_strip	good	n/a	release file extension .511-512; subdural PFC strip channel (5NN numbering); pair NNN-MMM = difference of the two channels
+ECOG512	ECOG	n/a	n/a	n/a	1000.0	n/a	PFC_strip	good	n/a	release file extension .512; subdural PFC strip channel (5NN numbering)
+ECOG512-513	ECOG	n/a	n/a	n/a	1000.0	bipolar	PFC_strip	good	n/a	release file extension .512-513; subdural PFC strip channel (5NN numbering); pair NNN-MMM = difference of the two channels
+ECOG513	ECOG	n/a	n/a	n/a	1000.0	n/a	PFC_strip	good	n/a	release file extension .513; subdural PFC strip channel (5NN numbering)
+ECOG513-514	ECOG	n/a	n/a	n/a	1000.0	bipolar	PFC_strip	good	n/a	release file extension .513-514; subdural PFC strip channel (5NN numbering); pair NNN-MMM = difference of the two channels
+ECOG514	ECOG	n/a	n/a	n/a	1000.0	n/a	PFC_strip	good	n/a	release file extension .514; subdural PFC strip channel (5NN numbering)
