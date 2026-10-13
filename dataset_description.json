@@ -45,5 +45,7 @@
       "Name": "b3w10_convert_pfc.py",
       "Description": "int16 channel files to BrainVision float32 (values unchanged); behavioural events to events.tsv; dates removed. Code in code/."
     }
-  ]
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000432",
+  "Version": "1.0.0"
 }
