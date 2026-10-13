@@ -1,0 +1,36 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000432-blue)](https://doi.org/10.82901/nemar.nm000432)
+
+# Human STN and prefrontal recordings during non-motor (working-memory encoding) decisions (Zavala, Jang & Zaghloul, 2018) - DERIVATIVE
+
+Intraoperative recordings from patients with Parkinson's disease undergoing STN DBS surgery at the NIH: macroelectrode LFP
+from three STN trajectories and subdural strips (6 and 8 contacts) over the anterior and lateral prefrontal cortex, while
+participants saw eight digits in sequence and remembered only those inside a target shape (article).
+
+THIS IS A DERIVATIVE DATASET: the files of the release folder `ecogLFPdata_rereferenced` are, per the article, band-passed
+1-500 Hz, notch-filtered at 60 Hz, downsampled to 1 kHz (raw macro rate 1.5024 kHz) and re-referenced (macro: common average
+of the simultaneously recorded macro contacts; subdural: bipolar). Single-number channels (e.g. LFP001) and pairs
+(e.g. LFP001-002) are both given as in the release.
+
+## Source
+- Zavala BA, Jang AI, Zaghloul KA. Data from: Human subthalamic nucleus activity during non-motor decision making.
+  Zenodo doi:10.5281/zenodo.4960485 (mirror of the Dryad deposit), License CC0 1.0. Article: eLife 6:e31007 (2017),
+  doi:10.7554/eLife.31007. All files downloaded on Voyager with md5 verification.
+
+## Contents
+- `sub-DBSxxx/ses-<k>/ieeg/*_task-seqmem_run-<n>`: 32 recordings, 18 subjects, 11.88 h at 1 kHz.
+  `ses-<k>` = behavioural session_k whose events point to the recording; `run` = the recording number in the source file name.
+  Values = the release int16 numbers (scaling not stated; units n/a). `LFPnnn` = channels numbered 0NN (macro), `ECOGnnn` =
+  channels numbered 5NN (subdural); the release does not map numbers to individual contacts or strips. 'bad' in a release file
+  name -> status bad.
+- `events.tsv`: one row per digit from behavioral/session_k/events.mat (onset = eegoffset / 1000 s).
+- `sourcedata/zenodo-4960485/SeqMemRawdata/`: all channel files, behaviour, docs and Plexon spike times (sorted units from the
+  microelectrodes; the unsorted wideband spiking data are not in the release), with these changes: recording dates removed
+  from file names (day set to 01), dates in recordingdetails.txt set to day 01, events.mat mstime made relative to the first
+  event and eegfile reduced to the renamed base name. README_for_SeqMemRawdata.rtf unchanged.
+
+## Localisation
+No coordinates. STN trajectories (centre/lateral/anterior per side), target frame coordinates and recording depths are given per
+subject in docs/recordingdetails.txt (sourcedata). Article Figure 1C shows projected strip locations for 14 of 18 participants.
+
+## Participants
+Article: 18 participants (16 male), 58.4 +/- 1.64 years (mean +/- SEM); not given per subject. Medication stopped 12 h before surgery.
