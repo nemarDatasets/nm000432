@@ -1,5 +1,5 @@
 {
-  "Name": "Zavala-2017-human-10.7554/elife.31007",
+  "Name": "Human subthalamic nucleus LFP and prefrontal subdural recordings during a working-memory encoding decision task (Zavala, Jang & Zaghloul, 2018) - derivative",
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC0-1.0",
@@ -47,5 +47,5 @@
     }
   ],
   "DatasetDOI": "10.82901/nemar.nm000432",
-  "Version": "1.0.1"
+  "Version": "1.0.2"
 }
