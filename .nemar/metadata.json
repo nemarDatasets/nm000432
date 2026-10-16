@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Human subthalamic nucleus LFP and prefrontal subdural recordings during a working-memory encoding decision task (Zavala, Jang & Zaghloul, 2018) - derivative",
-  "description": "Intraoperative intracranial recordings from 18 patients with Parkinson's disease undergoing subthalamic nucleus (STN) deep brain stimulation surgery. The recordings include macroelectrode local field potentials from STN trajectories and subdural prefrontal strips, acquired during a working-memory task in which participants viewed sequences of digits and remembered only those inside a target shape. This derivative release contains band-pass filtered, notch filtered, downsampled and re-referenced data converted to BIDS/BrainVision format with behavioral events.",
-  "methods_description": "Macroelectrode LFP was recorded from three STN trajectories, together with 6- and 8-contact subdural strips over anterior and lateral prefrontal cortex, during intraoperative DBS surgery after medication withdrawal of 12 h. Raw macro data were sampled at 1.5024 kHz. The released data were band-passed at 1-500 Hz, notch filtered at 60 Hz, downsampled to 1 kHz, and re-referenced (macro: common average; subdural: bipolar).",
+  "title": "Zavala-2017-human-10.7554/elife.31007",
+  "description": "Intraoperative recordings from 18 patients with Parkinson's disease undergoing subthalamic nucleus deep brain stimulation surgery. Macroelectrode local field potentials from STN trajectories and subdural prefrontal strips were acquired while participants performed a sequential working-memory task, encoding only digits inside a target shape. This derivative release contains band-pass filtered, downsampled, and re-referenced iEEG data in BIDS format.",
+  "methods_description": "Intraoperative macroelectrode LFP recordings from three STN trajectories and subdural strips over anterior and lateral prefrontal cortex during a digit-sequence working-memory task. Data were band-passed 1-500 Hz, notch-filtered at 60 Hz, downsampled to 1 kHz from 1.5024 kHz, and re-referenced (common average for macro contacts, bipolar for subdural).",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -18,26 +18,27 @@
       "term": "intracranial EEG"
     },
     {
-      "term": "subthalamic nucleus"
+      "term": "Subthalamic Nucleus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020531"
     },
     {
-      "term": "prefrontal cortex"
+      "term": "Prefrontal Cortex",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D017397"
     },
     {
       "term": "working memory"
     },
     {
-      "term": "Decision Making",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003657"
-    },
-    {
-      "term": "Parkinson's disease"
-    },
-    {
       "term": "Deep Brain Stimulation",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D046690"
+    },
+    {
+      "term": "Parkinson Disease",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
     }
   ],
   "related_identifiers": [
@@ -67,7 +68,7 @@
       "funder_name": "NINDS Intramural Research Program"
     },
     {
-      "funder_name": "NIGMS NIH HHS",
+      "funder_name": "NIGMS",
       "award_number": "T32 GM007309"
     }
   ],
@@ -132,5 +133,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "b4d2206c1baa760ef4ee9e2107cb8e2c70bf6b707181e38b76b6f265864db5a9"
+  "source_hash": "b72dff8d90ef37b379f9c6bdb4fe0d2c35733372823a76ab9087ee4b167e219f"
 }
