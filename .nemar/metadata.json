@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Human subthalamic nucleus LFP and prefrontal subdural recordings during a working-memory encoding decision task (Zavala, Jang & Zaghloul, 2018) - derivative",
+  "title": "Human subthalamic nucleus LFP and prefrontal subdural recordings during a working-memory encoding decision task - derivative",
   "description": "Intraoperative recordings from 18 patients with Parkinson's disease undergoing subthalamic nucleus deep brain stimulation surgery. Macroelectrode local field potentials from STN trajectories and subdural prefrontal strips were acquired while participants performed a sequential working-memory task, encoding only digits inside a target shape. This derivative release contains band-pass filtered, downsampled, and re-referenced iEEG data in BIDS format.",
   "methods_description": "Intraoperative macroelectrode LFP recordings from three STN trajectories and subdural strips over anterior and lateral prefrontal cortex during a digit-sequence working-memory task. Data were band-passed 1-500 Hz, notch-filtered at 60 Hz, downsampled to 1 kHz from 1.5024 kHz, and re-referenced (common average for macro contacts, bipolar for subdural).",
   "license": "CC0-1.0",
@@ -133,5 +133,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "8d45aabb5a8e7e06f60c14bde8822b2a410b0962175779481e115b8c5c26d972"
+  "source_hash": "689628dba1af32841dea0f9417e789036b222d3d121ffd3036eac2ddc963b25f"
 }
