@@ -34,3 +34,12 @@ subject in docs/recordingdetails.txt (sourcedata). Article Figure 1C shows proje
 
 ## Participants
 Article: 18 participants (16 male), 58.4 +/- 1.64 years (mean +/- SEM); not given per subject. Medication stopped 12 h before surgery.
+
+## Units when reading with MNE (added 2026-10-17, version 1.0.3)
+
+The release does not state the physical unit of the signal values, so the BrainVision headers and channels.tsv give
+the unit `n/a` (resolution 1) and the values are the release's numbers, unchanged. MNE and MNE-BIDS read a channel
+with unit `n/a` as volts with scale 1: `raw.get_data()` returns the stored numbers as they are, labelled V. If the
+numbers are microvolt-sized, anything that assumes volts (plot scalings, rejection thresholds, µV conversions) sees
+them 1e6 times too large. The values are the release int16 numbers; in the 2026-10-17 check the channels had a robust SD of about 25-260 in the runs read. No unit is assigned here because the source does not state one; treat the values as the
+release's numbers in an unknown unit.
